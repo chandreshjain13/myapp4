@@ -10,7 +10,7 @@ pipeline {
       stages{
         stage('Clone') {
           steps {
-           git 'https://github.com/avinash0106/NeeyamoDemoTest.git'
+           git 'https://github.com/chandreshjain13/myapp4.git''
          }
         }
         stage('Build') {
